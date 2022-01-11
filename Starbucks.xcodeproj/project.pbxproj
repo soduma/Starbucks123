@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A0A20902278D1706007579B9 /* StarbucksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20901278D1706007579B9 /* StarbucksApp.swift */; };
-		A0A20904278D1706007579B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20903278D1706007579B9 /* ContentView.swift */; };
+		A0A20904278D1706007579B9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20903278D1706007579B9 /* MainTabView.swift */; };
 		A0A20906278D1707007579B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A20905278D1707007579B9 /* Assets.xcassets */; };
 		A0A20909278D1707007579B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A20908278D1707007579B9 /* Preview Assets.xcassets */; };
+		A0A20910278D1D89007579B9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2090F278D1D89007579B9 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0A208FE278D1706007579B9 /* Starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A20901278D1706007579B9 /* StarbucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksApp.swift; sourceTree = "<group>"; };
-		A0A20903278D1706007579B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0A20903278D1706007579B9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A0A20905278D1707007579B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A20908278D1707007579B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0A2090F278D1D89007579B9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A0A20901278D1706007579B9 /* StarbucksApp.swift */,
-				A0A20903278D1706007579B9 /* ContentView.swift */,
+				A0A20903278D1706007579B9 /* MainTabView.swift */,
+				A0A2090F278D1D89007579B9 /* Tab.swift */,
 				A0A20905278D1707007579B9 /* Assets.xcassets */,
 				A0A20907278D1707007579B9 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A20904278D1706007579B9 /* ContentView.swift in Sources */,
+				A0A20910278D1D89007579B9 /* Tab.swift in Sources */,
+				A0A20904278D1706007579B9 /* MainTabView.swift in Sources */,
 				A0A20902278D1706007579B9 /* StarbucksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
