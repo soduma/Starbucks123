@@ -9,15 +9,28 @@ import SwiftUI
 
 struct EventSectionView: View {
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack(spacing: 16) {
-                ForEach(Event.sample) { event in
-                    EventItemView(event: event)
-                }
+        VStack {
+            HStack{
+                Text("Events")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Button("See All") {}
+                .font(.subheadline)
+                .accentColor(.green)
             }
-            .padding(.horizontal, 16)
-        }.onAppear {
-            UIScrollView.appearance().isPagingEnabled = true
+            .padding()
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 16) {
+                    ForEach(Event.sample) { event in
+                        EventItemView(event: event)
+                    }
+                }
+                .padding(.horizontal)
+//                .frame(maxWidth: .infinity, minHeight: 220, maxHeight: .infinity)
+            }.onAppear {
+                UIScrollView.appearance().isPagingEnabled = true
+            }
         }
     }
 }
@@ -33,9 +46,13 @@ struct EventItemView: View {
                 .frame(height: 150)
                 .clipped()
                 .cornerRadius(20)
+            Spacer(minLength: 20)
+            
             Text(event.title)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .font(.headline)
+                .font(.system(size: 20, weight: .bold, design: .default))
+            Spacer(minLength: 5)
+            
             Text(event.description)
                 .lineLimit(1)
                 .frame(maxWidth: .infinity, alignment: .topLeading)

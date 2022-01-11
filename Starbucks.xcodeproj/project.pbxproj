@@ -17,6 +17,9 @@
 		A0A20916278D31BB007579B9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20915278D31BB007579B9 /* Menu.swift */; };
 		A0A20918278D394E007579B9 /* EventSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20917278D394E007579B9 /* EventSectionView.swift */; };
 		A0A2091A278D399C007579B9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20919278D399C007579B9 /* Event.swift */; };
+		A0A2091D278D4E81007579B9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2091C278D4E81007579B9 /* HeaderView.swift */; };
+		A0A2091F278D5003007579B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2091E278D5003007579B9 /* HomeView.swift */; };
+		A0A20921278D5398007579B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20920278D5398007579B9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		A0A20915278D31BB007579B9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A0A20917278D394E007579B9 /* EventSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionView.swift; sourceTree = "<group>"; };
 		A0A20919278D399C007579B9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A0A2091C278D4E81007579B9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A0A2091E278D5003007579B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0A20920278D5398007579B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +71,9 @@
 			children = (
 				A0A20911278D220E007579B9 /* Sample.swift */,
 				A0A20901278D1706007579B9 /* StarbucksApp.swift */,
-				A0A20903278D1706007579B9 /* MainTabView.swift */,
-				A0A2090F278D1D89007579B9 /* Tab.swift */,
-				A0A20913278D3144007579B9 /* MenuSectionView.swift */,
+				A0A2091B278D4037007579B9 /* Scene */,
+				A0A20920278D5398007579B9 /* User.swift */,
 				A0A20915278D31BB007579B9 /* Menu.swift */,
-				A0A20917278D394E007579B9 /* EventSectionView.swift */,
 				A0A20919278D399C007579B9 /* Event.swift */,
 				A0A20905278D1707007579B9 /* Assets.xcassets */,
 				A0A20907278D1707007579B9 /* Preview Content */,
@@ -83,6 +87,27 @@
 				A0A20908278D1707007579B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0A2091B278D4037007579B9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A0A2090F278D1D89007579B9 /* Tab.swift */,
+				A0A20903278D1706007579B9 /* MainTabView.swift */,
+				A0A20922278D553F007579B9 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		A0A20922278D553F007579B9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A0A2091E278D5003007579B9 /* HomeView.swift */,
+				A0A2091C278D4E81007579B9 /* HeaderView.swift */,
+				A0A20913278D3144007579B9 /* MenuSectionView.swift */,
+				A0A20917278D394E007579B9 /* EventSectionView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,13 +181,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A2091A278D399C007579B9 /* Event.swift in Sources */,
+				A0A2091D278D4E81007579B9 /* HeaderView.swift in Sources */,
 				A0A20916278D31BB007579B9 /* Menu.swift in Sources */,
+				A0A2091F278D5003007579B9 /* HomeView.swift in Sources */,
 				A0A20914278D3144007579B9 /* MenuSectionView.swift in Sources */,
 				A0A20910278D1D89007579B9 /* Tab.swift in Sources */,
 				A0A20912278D220E007579B9 /* Sample.swift in Sources */,
 				A0A20918278D394E007579B9 /* EventSectionView.swift in Sources */,
 				A0A20904278D1706007579B9 /* MainTabView.swift in Sources */,
 				A0A20902278D1706007579B9 /* StarbucksApp.swift in Sources */,
+				A0A20921278D5398007579B9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
