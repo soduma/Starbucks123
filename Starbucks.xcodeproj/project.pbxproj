@@ -23,6 +23,9 @@
 		A0A20924278D6AA6007579B9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20923278D6AA5007579B9 /* OtherView.swift */; };
 		A0A20927278D704D007579B9 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20926278D704D007579B9 /* Other.swift */; };
 		A0A20929278E9234007579B9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20928278E9234007579B9 /* SettingView.swift */; };
+		A0A2092B278EA067007579B9 /* Sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092A278EA067007579B9 /* Sample2.swift */; };
+		A0A2092D278EA40D007579B9 /* Sample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092C278EA40D007579B9 /* Sample3.swift */; };
+		A0A2092F278EA5FC007579B9 /* Sample4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092E278EA5FC007579B9 /* Sample4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		A0A20923278D6AA5007579B9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		A0A20926278D704D007579B9 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		A0A20928278E9234007579B9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A0A2092A278EA067007579B9 /* Sample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2.swift; sourceTree = "<group>"; };
+		A0A2092C278EA40D007579B9 /* Sample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3.swift; sourceTree = "<group>"; };
+		A0A2092E278EA5FC007579B9 /* Sample4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				A0A20911278D220E007579B9 /* Sample.swift */,
+				A0A2092A278EA067007579B9 /* Sample2.swift */,
+				A0A2092C278EA40D007579B9 /* Sample3.swift */,
+				A0A2092E278EA5FC007579B9 /* Sample4.swift */,
 				A0A20901278D1706007579B9 /* StarbucksApp.swift */,
 				A0A2091B278D4037007579B9 /* Scene */,
 				A0A20925278D6AAC007579B9 /* Other */,
@@ -205,10 +214,13 @@
 				A0A20914278D3144007579B9 /* MenuSectionView.swift in Sources */,
 				A0A20910278D1D89007579B9 /* Tab.swift in Sources */,
 				A0A20912278D220E007579B9 /* Sample.swift in Sources */,
+				A0A2092B278EA067007579B9 /* Sample2.swift in Sources */,
+				A0A2092F278EA5FC007579B9 /* Sample4.swift in Sources */,
 				A0A20918278D394E007579B9 /* EventSectionView.swift in Sources */,
 				A0A20904278D1706007579B9 /* MainTabView.swift in Sources */,
 				A0A20902278D1706007579B9 /* StarbucksApp.swift in Sources */,
 				A0A20927278D704D007579B9 /* Other.swift in Sources */,
+				A0A2092D278EA40D007579B9 /* Sample3.swift in Sources */,
 				A0A20921278D5398007579B9 /* User.swift in Sources */,
 				A0A20924278D6AA6007579B9 /* OtherView.swift in Sources */,
 			);
