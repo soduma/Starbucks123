@@ -26,7 +26,7 @@ struct OtherView: View {
             .listStyle(.inset)
             .navigationTitle("Other")
             .toolbar {
-                NavigationLink(destination: Text("Destination"), label: {
+                NavigationLink(destination: SettingView(), label: {
                     Image(systemName: "gear")
                 })
             }

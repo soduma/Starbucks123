@@ -22,6 +22,7 @@
 		A0A20921278D5398007579B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20920278D5398007579B9 /* User.swift */; };
 		A0A20924278D6AA6007579B9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20923278D6AA5007579B9 /* OtherView.swift */; };
 		A0A20927278D704D007579B9 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20926278D704D007579B9 /* Other.swift */; };
+		A0A20929278E9234007579B9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20928278E9234007579B9 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A0A20920278D5398007579B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A0A20923278D6AA5007579B9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		A0A20926278D704D007579B9 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		A0A20928278E9234007579B9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,9 @@
 		A0A20925278D6AAC007579B9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A0A20926278D704D007579B9 /* Other.swift */,
 				A0A20923278D6AA5007579B9 /* OtherView.swift */,
+				A0A20926278D704D007579B9 /* Other.swift */,
+				A0A20928278E9234007579B9 /* SettingView.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				A0A2091A278D399C007579B9 /* Event.swift in Sources */,
 				A0A2091D278D4E81007579B9 /* HeaderView.swift in Sources */,
 				A0A20916278D31BB007579B9 /* Menu.swift in Sources */,
+				A0A20929278E9234007579B9 /* SettingView.swift in Sources */,
 				A0A2091F278D5003007579B9 /* HomeView.swift in Sources */,
 				A0A20914278D3144007579B9 /* MenuSectionView.swift in Sources */,
 				A0A20910278D1D89007579B9 /* Tab.swift in Sources */,
