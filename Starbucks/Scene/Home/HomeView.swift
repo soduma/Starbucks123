@@ -13,8 +13,8 @@ struct HomeView: View {
             HeaderView()
             MenuSectionView()
             EventSectionView()
+            Spacer(minLength: 50)
         }
-        
     }
 }
 

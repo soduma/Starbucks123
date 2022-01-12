@@ -43,6 +43,7 @@ struct HeaderView: View {
             }
             .foregroundColor(.secondary)
         }
+        .frame(height: 200)
         .padding()
     }
 }

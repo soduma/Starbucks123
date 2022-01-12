@@ -20,6 +20,8 @@
 		A0A2091D278D4E81007579B9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2091C278D4E81007579B9 /* HeaderView.swift */; };
 		A0A2091F278D5003007579B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2091E278D5003007579B9 /* HomeView.swift */; };
 		A0A20921278D5398007579B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20920278D5398007579B9 /* User.swift */; };
+		A0A20924278D6AA6007579B9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20923278D6AA5007579B9 /* OtherView.swift */; };
+		A0A20927278D704D007579B9 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20926278D704D007579B9 /* Other.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A0A2091C278D4E81007579B9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		A0A2091E278D5003007579B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A0A20920278D5398007579B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A0A20923278D6AA5007579B9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		A0A20926278D704D007579B9 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				A0A20911278D220E007579B9 /* Sample.swift */,
 				A0A20901278D1706007579B9 /* StarbucksApp.swift */,
 				A0A2091B278D4037007579B9 /* Scene */,
+				A0A20925278D6AAC007579B9 /* Other */,
 				A0A20920278D5398007579B9 /* User.swift */,
 				A0A20915278D31BB007579B9 /* Menu.swift */,
 				A0A20919278D399C007579B9 /* Event.swift */,
@@ -108,6 +113,15 @@
 				A0A20917278D394E007579B9 /* EventSectionView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		A0A20925278D6AAC007579B9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A0A20926278D704D007579B9 /* Other.swift */,
+				A0A20923278D6AA5007579B9 /* OtherView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +204,9 @@
 				A0A20918278D394E007579B9 /* EventSectionView.swift in Sources */,
 				A0A20904278D1706007579B9 /* MainTabView.swift in Sources */,
 				A0A20902278D1706007579B9 /* StarbucksApp.swift in Sources */,
+				A0A20927278D704D007579B9 /* Other.swift in Sources */,
 				A0A20921278D5398007579B9 /* User.swift in Sources */,
+				A0A20924278D6AA6007579B9 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ enum Tab {
     var textItem: Text {
         switch self {
         case .home: return Text("Home")
-        case .other: return Text("Other ")
+        case .other: return Text("Other")
         }
     }
     
