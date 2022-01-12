@@ -26,6 +26,7 @@
 		A0A2092B278EA067007579B9 /* Sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092A278EA067007579B9 /* Sample2.swift */; };
 		A0A2092D278EA40D007579B9 /* Sample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092C278EA40D007579B9 /* Sample3.swift */; };
 		A0A2092F278EA5FC007579B9 /* Sample4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2092E278EA5FC007579B9 /* Sample4.swift */; };
+		A0A20933278EAABA007579B9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A20932278EAABA007579B9 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		A0A2092A278EA067007579B9 /* Sample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2.swift; sourceTree = "<group>"; };
 		A0A2092C278EA40D007579B9 /* Sample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3.swift; sourceTree = "<group>"; };
 		A0A2092E278EA5FC007579B9 /* Sample4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample4.swift; sourceTree = "<group>"; };
+		A0A20932278EAABA007579B9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				A0A2091C278D4E81007579B9 /* HeaderView.swift */,
 				A0A20913278D3144007579B9 /* MenuSectionView.swift */,
 				A0A20917278D394E007579B9 /* EventSectionView.swift */,
+				A0A20932278EAABA007579B9 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A2091A278D399C007579B9 /* Event.swift in Sources */,
+				A0A20933278EAABA007579B9 /* HomeViewModel.swift in Sources */,
 				A0A2091D278D4E81007579B9 /* HeaderView.swift in Sources */,
 				A0A20916278D31BB007579B9 /* Menu.swift in Sources */,
 				A0A20929278E9234007579B9 /* SettingView.swift in Sources */,

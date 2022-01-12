@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct EventSectionView: View {
+    @Binding var event: [Event]
+    
     var body: some View {
         VStack {
             HStack{
@@ -22,14 +24,14 @@ struct EventSectionView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 16) {
-                    ForEach(Event.sample) { event in
+                    ForEach(event) { event in
                         EventItemView(event: event)
                     }
                 }
                 .padding(.horizontal)
 //                .frame(maxWidth: .infinity, minHeight: 220, maxHeight: .infinity)
             }.onAppear {
-                UIScrollView.appearance().isPagingEnabled = true
+//                UIScrollView.appearance().isPagingEnabled = true
             }
         }
     }
@@ -62,8 +64,8 @@ struct EventItemView: View {
     }
 }
 
-struct EventSectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        EventSectionView()
-    }
-}
+//struct EventSectionView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        EventSectionView()
+//    }
+//}
